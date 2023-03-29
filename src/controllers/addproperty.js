@@ -8,6 +8,7 @@ const insertProperty = async (req, res) => {
   const bathrooms = req.body.bathrooms;
   const price = req.body.price;
   const email = req.body.email;
+  const image = req.body.image;
 
   try {
     const formData = new Property({
@@ -18,6 +19,7 @@ const insertProperty = async (req, res) => {
       bathrooms: bathrooms,
       price: price,
       email: email,
+      image: image,
     });
     await formData.save();
     res.sendStatus(201);
