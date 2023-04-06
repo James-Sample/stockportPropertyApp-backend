@@ -32,7 +32,6 @@ The app displays a number of properties and their information hosted on the data
 There are filtering options at the top to allow filtering by postcode and title, as well as the ability to sort by price and number of bedrooms
 ![image](https://user-images.githubusercontent.com/64859119/230299324-850e7b41-d276-4f31-a4e0-eea32183ef61.png)
 
-
 The add property form is displayed below:
 ![image](https://user-images.githubusercontent.com/64859119/230299560-d3c6f0a7-845d-4e7c-8614-b369319e0f33.png)
 
